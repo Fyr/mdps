@@ -18,7 +18,7 @@ class ObjectTypeHelper extends AppHelper {
                 'Brand' => __('Brands'),
                 'CarType' => __('Car Types'),
                 'CarSubtype' => __('Car Subtypes'),
-                'CarSubsection' => __('Car Subsectionss'),
+                'CarSubsection' => __('Car Subsections'),
             ), 
             'create' => array(
                 'Article' => __('Create Article'),

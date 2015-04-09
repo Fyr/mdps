@@ -27,8 +27,8 @@ define('RECAPTCHA_PRIVATE_KEY', '6Lezy-QSAAAAACCM1hh6ceRr445OYU_D_uA79UFZ');
 Configure::write('Recaptcha.publicKey', RECAPTCHA_PUBLIC_KEY);
 Configure::write('Recaptcha.privateKey', RECAPTCHA_PRIVATE_KEY);
 
-define('DOMAIN_NAME', 'zzap.dev');
-define('DOMAIN_TITLE', 'ZZap.dev');
+define('DOMAIN_NAME', 'giperzap.dev');
+define('DOMAIN_TITLE', 'GiperZap.dev');
 
 define('AUTH_ERROR', __('Invalid username or password, try again'));
 define('TEST_ENV', $_SERVER['SERVER_ADDR'] == '192.168.1.22');

@@ -454,7 +454,7 @@ Grid = function(config) {
 
 	this.getRowURL = function(rowData, href) {
 		var id = self.getID(rowData);
-		return href.replace(/\{\$id\}/ig, id).replace(/~id/ig, id);
+		return href.replace(/\{\$id\}/ig, id).replace(/~id/ig, id).replace(/\%7Eid/ig, id);
 	}
 
 	this.renderTableCell = function(value, col, rowData) {
